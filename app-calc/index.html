@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+<!-- Google font -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="dark-theme" id="body">
+<div class="wrapper">
+  <div class="container">
+    <div class="calculator">
+      <div class="heading">
+        <div class="heading__title">calc</div>
+          <div class="toggle3-switch">
+
+    <input type="radio" id="toggle3radio1" class="radio1 checked" name="toggle3"/>
+    <input type="radio" id="toggle3radio2" class="radio2" name="toggle3" />
+    <input type="radio" id="toggle3radio3" class="radio3" name="toggle3" />
+    <div class="topLabelContainer">
+      <label class=labelTop1 for="toggle3radio1">1
+      </label><label class="labelTop2" for="toggle3radio2">2
+      </label><label class="labelTop3" for="toggle3radio3">3</label>
+    </div>
+
+    <span class=labelLeft>THEME
+    </span><span class="sliderContainer">
+      <label class="label1" for="toggle3radio1"></label>
+      <label class="label2" for="toggle3radio2"></label>
+      <label class="label3" for="toggle3radio3"></label>
+      <span class="slider"></span>
+    </span>
+
+      </div>
+      </div>
+      <div class="calc__screen">
+
+      <div class="calculator__input" id="calc__input" value="0">0</div>
+      </div>
+<div class="calculator__buttons">
+  <button type="button" class="number button-7" value="7"><p>7</p></button>
+  <button type="button" class="number button-8" value="8"><p>8</p></button>
+  <button type="button" class="number button-9" value="9"><p>9</p></button>
+  <button type="button" id="delete" class="button-del" value="del"><p>del</p></button>
+  <button type="button" class="number button-4" value="4"><p>4</p></button>
+  <button type="button" class="number button-5" value="5"><p>5</p></button>
+  <button type="button" class="number button-6" value="6"><p>6</p></button>
+  <button type="button" class="operator button-plus" value="+"><p>+</p></button>
+  <button type="button" class="number button-1" value="1"><p>1</p></button>
+  <button type="button" class="number button-2" value="2"><p>2</p></button>
+  <button type="button" class="number button-3" value="3"><p>3</p></button>
+  <button type="button" class="operator button-min" value="-"><p>-</p></button>
+  <button type="button" id="decimal" class="decimal button-dot" value="."><p>.</p></button>
+  <button type="button" class="number button-0" value="0"><p>0</p></button>
+  <button type="button" class="operator button-slash" value="/"><p>/</p></button>
+  <button type="button" class="operator button-x" value="*"><p>x</p></button>
+  <button type="button" id="reset" class="reset" value="reset"><p>RESET</p></button>
+  <button type="button" id="equall" class="operator equall" value="="><p>=</p></button>
+</div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/EkaterinaArkhipenko">Arkhipenko</a>.
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script  type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

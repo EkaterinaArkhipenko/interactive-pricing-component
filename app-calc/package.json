@@ -1,0 +1,19 @@
+{
+  "name": "calculator-app-main",
+  "version": "1.0.0",
+  "description": "calculator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaArkhipenko/Calculator-app.git"
+  },
+  "author": "Arkhipenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaArkhipenko/Calculator-app/issues"
+  },
+  "homepage": "https://github.com/EkaterinaArkhipenko/Calculator-app#readme"
+}
